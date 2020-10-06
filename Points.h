@@ -41,7 +41,7 @@ public:
      * @return
      */
      double coordDistances(){
-        double distance = this->getY() - this->getY();
+        double distance = this->getY() - this->getX();
         return distance;
      }
 
